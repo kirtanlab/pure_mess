@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621085315 source:c:\kirtan\college\first year\practicals cp_2nd year\mess\module6\6.3\main.cpp
+	<iostream>
+	<iomanip>
+	<conio.h>
+

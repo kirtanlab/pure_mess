@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1621068786 source:c:\kirtan\college\first year\practicals cp_2nd year\mess\module14\14.2\main.cpp
+	<iostream>
+	<iomanip>
+	<cctype>
+

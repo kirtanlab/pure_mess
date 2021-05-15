@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1620730033 source:c:\kirtan\college\first year\practicals cp_2nd year\mess\module10\10.3\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+

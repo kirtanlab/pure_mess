@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1620713109 source:c:\users\kirta\desktop\mess\mess\module7\7.2\main.cpp
+	<iostream>
+	<string>
+	<cstring>
+

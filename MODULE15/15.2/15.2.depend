@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1620908155 source:c:\users\kirtan  prajapati\desktop\stuffs\codeblocks\raw\15.2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<fstream>
+	<string>
+	<iostream>
+	<fstream>
+	<string>
+	<iostream>
+	<fstream>
+	<string>
+

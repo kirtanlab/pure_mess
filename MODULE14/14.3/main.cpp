@@ -44,7 +44,7 @@ int main()
         cout << "\t\t\t\t----------------------------------------" << endl;
         for(int j=0;j<=i;j++){ cout << setw(40) << t[j].get_name() << setw(15) << t[j].get_code() << setw(15) << t[j].get_cost() << endl; }
 
-        cout << "want to continue> (0 for yes and 1 for No)";
+        cout << "\n\nwant to continue> (0 for yes and 1 for No)";
         cin >> dec;
         if (dec == 1) {
             i = 100;

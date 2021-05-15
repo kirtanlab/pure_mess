@@ -49,9 +49,6 @@ int main()
         if (dec == 1) {
             i = 100;
         }
-        else {
-
-        }
     }
     return 0;
 }

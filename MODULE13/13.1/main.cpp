@@ -11,6 +11,7 @@ public:
     }
     Base(int x)  : value {x} {
             cout << "Base (int) overloaded constructor" << endl;
+            cout << "Input Value in Base class: " << value << endl;
     }
    ~Base() {
        cout << "Base destructor" << endl;
@@ -28,6 +29,7 @@ public:
     Derived(int x)
         :  Base{x},  doubled_value {x * 2} {
             cout << "Derived (int) constructor" << endl;
+            cout << "Input Value in Base class: " << doubled_value << endl;
     }
     ~Derived() {
         cout << "Derived destructor " << endl;

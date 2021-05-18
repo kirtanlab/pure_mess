@@ -51,11 +51,10 @@ public:
 };
 int main()
 {
-    char str [] = "dharmik";
+    char str [] = "kirtan";
     char* new_str = new char[20];
     new_str = str;
     sample s1(new_str, 3000, 1200);
-    //sample s1("Dharmik", 3000, 1200);
     s1.Display();
     return 0;
 }

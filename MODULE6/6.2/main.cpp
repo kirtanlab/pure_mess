@@ -38,8 +38,9 @@ char* rev(char* str, int count) {
 int main() {
     char* str = new char[1000];
     int count, len_str{};
+
     cout << "Input String: " << endl;
-    cin.getline(str, 1000, '\n');
+    cin.getline(str, 1000);
     len_str = len(str, len_str);
     for (int i = 0; i < len_str; i++) {
         cout << "\nIndex[" << i + 1 << "] : " << str[i] << endl;

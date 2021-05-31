@@ -57,7 +57,7 @@ fstream w_obj("abc.txt",ios::app|ios::binary|ios::in);
 w_obj.seekp(0,ios::end);
 ipt.ta_ipt();
 w_obj.write((char*)&ipt,sizeof(jp)); //------------->Use of Write() for writing for print computer readable binary characters in given textfile
-w_obj.read((char*)&ipt,sizeof(jp));//------>Use of Read() for Assigning Address 
+w_obj.read((char*)&ipt,sizeof(jp));//------>Use of Read() for Assigning Address
 
 
 return 0;

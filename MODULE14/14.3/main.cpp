@@ -10,9 +10,9 @@ class table {
     double cost;
 public:
     table() {
-
+        cin.sync();
         cout << "Enter Name: ";
-        cin.ignore();
+        //cin.ignore(-1);
         getline(cin,name);
         cout << "Enter Code: ";
         cin >> code;

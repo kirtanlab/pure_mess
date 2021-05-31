@@ -10,8 +10,10 @@ class table {
     double cost;
 public:
     table() {
+
         cout << "Enter Name: ";
-        cin >> name;
+        cin.ignore();
+        getline(cin,name);
         cout << "Enter Code: ";
         cin >> code;
         cout << "Enter cost: ";
@@ -32,6 +34,7 @@ public:
     ~table() {
 
     }
+
 };
 int main()
 {
